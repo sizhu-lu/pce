@@ -1,0 +1,9 @@
+Package: pce
+Type: Package
+Title: Principal stratification average causal effect
+Version: 0.0.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    np,    ks,    pracma,    parallel,    abind,    doParallel,    dplyr,    plyr
+RoxygenNote: 7.2.2
