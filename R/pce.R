@@ -19,7 +19,10 @@ matrix_multiply_with_expansion <- function(U, V) {
   return(U * V)
 }
 
-
+#' Compute integral in vector form
+#' @param x A vector 
+#' @param y A vector or a matrix
+#' @return if y is a vector, return a number else return a vector
 trapz_vector <- function(x, y, axis=1) {
   idx = 2:length(x)
   if(is.null(dim(y))) {
