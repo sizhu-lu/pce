@@ -4,7 +4,7 @@
 \alias{matrix_multiply_with_expansion}
 \title{Two matrix multiplication with different first dimension}
 \usage{
-matrix_multiply_with_expansion(U, V)
+matrix_multiply_with_expansion(U, V, expansion_type = "both")
 }
 \arguments{
 \item{U}{A matrix of size (n_u, n)}

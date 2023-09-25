@@ -11,8 +11,8 @@ boot(
   Y,
   n_boot = 500,
   n_divisions = 100,
-  copula_function_vectorized = copula_function_vectorized,
-  copula_gradient_vectorized = copula_gradient_vectorized,
+  copula_type = "gaussian",
+  rho = 0,
   weighting_function_vectorized = weighting_function_vectorized,
   g_function_vectorized = g_function_vectorized
 )
